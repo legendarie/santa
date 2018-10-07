@@ -1,0 +1,7 @@
+{
+  "name": "santaClaus",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
