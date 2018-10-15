@@ -19,8 +19,8 @@ export class HomePage {
 
   private x;
   private y;
-  private dx = 0;
-  private dy = -1;
+  private dx = 10;
+  private dy = -10;
 
   private Santa;
   private Candy;
@@ -135,13 +135,13 @@ export class HomePage {
     this.dy = -this.dy;
     }
 
-    if(this.y <= this.Santa.y+this.Santa.height && this.x<=this.Santa.x+this.Santa.width ){
-    // (this.x<=this.Santa.x+this.Santa.width && this.y<this.Santa.y+this.Santa.height && this.y+this.Candy.height>this.Santa.y)){
-      this.dx = 0;
-      this.dy = 0;
+    // if(this.y <= this.Santa.y+this.Santa.height && this.x<=this.Santa.x+this.Santa.width && this.x+this.Candy.width>this.Santa.x){
+    // // (this.x<=this.Santa.x+this.Santa.width && this.y<this.Santa.y+this.Santa.height && this.y+this.Candy.height>this.Santa.y)){
+    //   this.dx = 0;
+    //   this.dy = 0;
     }
 
-  }
+  
 
 
   reallyMoveCandy()
