@@ -1,14 +1,39 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Defeat the Santa Claus!
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class = "ion-canvas">
+    <canvas #canvas></canvas>
+  </div>
+
+
+
+
+
+    <button ion-button
+    round
+    color = "primary"
+    (click) = "drawSanta()">
+    Click here for Santa
+    </button>
+
+    <button ion-button
+    round
+    color = "primary"
+    (click) = "drawCandy()">
+    Arm up!
+    </button>
+
+    <button ion-button
+    round
+    color = "primary"
+    (click) = "reallyMoveCandy()">
+    Go
+    </button>
+
 </ion-content>
