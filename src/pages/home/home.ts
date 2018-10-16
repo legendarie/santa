@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ElementRef, ViewChild } from '@angular/core';
-import { ScreenOrientation } from '@ionic-native/screen-orientation';
+//import { ScreenOrientation } from '@ionic-native/screen-orientation';
 // import * as HitTest from '/Users/legendarie/santaClaus/src/pages/home/hittest.js';
 
 @Component({
@@ -27,7 +27,7 @@ export class HomePage {
   private Candy;
   // private objectCandy;
   constructor(public navCtrl: NavController) { }
-  constructor(private screenOrientation: ScreenOrientation) { } //? need function?????
+  //constructor(private screenOrientation: ScreenOrientation) { } //? need function?????
 
   ionViewDidLoad()
   {
